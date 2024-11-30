@@ -21,7 +21,7 @@ function Navbar() {
       <div>
         <Link
           href="/"
-          className="jost bg-gradient-to-r from-[#562EE7] to-[rgba(116,128,255,0.8)] bg-clip-text text-center text-5xl font-bold text-transparent dark:from-[#562EE7] dark:to-[#FFC6E8] md:w-[60%] md:text-6xl"
+          className="jost bg-gradient-to-r from-[#2f1a76] to-[rgba(56,67,189,0.8)] bg-clip-text text-center text-5xl font-bold text-transparent dark:from-[#562EE7] dark:to-[#FFC6E8] md:w-[60%] md:text-6xl"
         >
           Papers
         </Link>
@@ -34,7 +34,7 @@ function Navbar() {
         <Link href="/upload">
           <Button
             variant="outline"
-            className="mt-2 rounded-full px-6 py-4 text-xs md:mt-0 md:text-sm"
+            className="mt-2 rounded-full px-6 py-4 text-xs md:mt-0 md:text-sm hover:bg-[rgba(98,104,171,0.8)]"
           >
             <ArrowUpToLine />
             <span>UPLOAD PAPERS</span>
