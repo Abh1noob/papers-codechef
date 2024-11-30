@@ -14,7 +14,7 @@ const PreviewCard = ({ paper }: { paper: Paper }) => {
   return (
     <div
       key={paper._id}
-      className="w-56 space-y-1 rounded-xl border border-black border-opacity-50 p-4 dark:border-[#7480FF]/25"
+      className="w-56 space-y-1 rounded-xl border border-[#392173] border-opacity-50 p-4 dark:border-[#7480FF]/25"
     >
       <Link href={paper.finalUrl} target="_blank" rel="noopener noreferrer">
         <Image

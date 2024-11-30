@@ -25,7 +25,7 @@ export default function Footer() {
   return (
     <div className="mx-auto flex flex-col items-center justify-between gap-y-12 pt-12 md:pt-8 lg:w-full lg:flex-row lg:justify-around lg:px-12 mb-4">
       <div className="flex items-center">
-        <h1 className="jost bg-gradient-to-r from-[#562EE7] to-[rgba(116,128,255,0.8)] bg-clip-text text-center text-3xl font-bold text-transparent lg:text-5xl 2xl:text-6xl dark:from-[#562EE7] dark:to-[#FFC6E8]">
+        <h1 className="jost bg-gradient-to-r from-[#2f1a76] to-[rgba(56,67,189,0.8)] bg-clip-text text-center text-3xl font-bold text-transparent lg:text-5xl 2xl:text-6xl dark:from-[#562EE7] dark:to-[#FFC6E8]">
           Papers
         </h1>
         <Separator orientation="vertical" className="mx-3 h-full min-h-20" />
