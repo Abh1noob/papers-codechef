@@ -46,9 +46,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ message: "ServerMisconfig" }, { status: 500 });
     }
     await connectToDatabase();
-    const count: number = await PaperAdmin.countDocuments();
-    const configIndex = count % cloudinaryConfigs.length;
-    console.log(configIndex);
+    const configIndex = 1;
     cloudinary.v2.config(cloudinaryConfigs[configIndex]);
 
     const uploadPreset = process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET;
